@@ -5,11 +5,13 @@
 
 namespace irrecv_blink {
 
-// Pins that work: 11, 12
+// Note not having the pin connected can cause the controller to fail to
+// initialize.
+// Pins that work: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
 
 // Pins that don't work: 2
 
-int RECV_PIN = 10;
+int RECV_PIN = 12;
 #define LED_PIN 13
 
 IRrecv irrecv(RECV_PIN);
