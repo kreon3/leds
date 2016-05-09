@@ -54,5 +54,5 @@ void loop() {
 
 }  // namespace irrecv_blink
 
-void setup() { irrecv_blink::setup();}
-void loop() { irrecv_blink::loop();}
+// void setup() { irrecv_blink::setup();}
+// void loop() { irrecv_blink::loop();}
